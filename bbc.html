@@ -37,23 +37,54 @@
 	}
 	
 	#signindiv {
+		float:left;
 		font-weight:bold;
-		padding: 10px 20px 0 80px;
+		padding: 10px 0px 0 10px;
 		font-size:0.8em;
 		border-right:1px solid #E7E8E1;
-		width:200px;
+		width:160px;
 		height:30px;
 		
 	}
 	#signindiv img{
 		margin-top: -3px;
-		margin-left: 10px;
 		float:left;
 	}
 	#signintext {
 		float:left;
 		padding-top:3px;
 		padding-left:3px;
+	}
+	#topmenudiv {
+		float:left;	
+	}
+	#topmenudiv ul{
+		margin-top:0;
+		padding: 0;
+	}
+	#topmenudiv li{
+		float:left;
+		list-style:none;
+		font-weight:bold;
+		font-size:0.8em;
+		border-right:1px solid #E7E8E1;
+		height:100%;
+		padding: 13px 12px 12px 10px;
+	}
+	#searchdiv {
+		float:left;
+		padding: 8px 0 0 10px;
+	}
+	#searchdiv input {
+		height:18px;
+		border:none;
+		padding:3px 0 3px 5px;
+		font-size: .8em;
+		font-weight: bold;
+		background-image:url("images/magnify.png");	
+		background-repeat:no-repeat;
+		background-position: right center;
+		background-size: 22px 22px;
 	}
 	
 	</style>
@@ -79,9 +110,24 @@
 					Sign in
 				</div>
 				
-				
 			</div>
 			
+			<div id="topmenudiv">
+				<ul>
+					<li>News</li>
+					<li>Sport</li>
+					<li>Weather</li>
+					<li>Shop</li>
+					<li>Earth</li>
+					<li>Travel</li>
+					<li>More</li>
+					
+				</ul>
+			
+			</div>
+			<div id="searchdiv">
+				<input type="text" placeholder = "Search"/>
+				
 			</div>
 		
 		
